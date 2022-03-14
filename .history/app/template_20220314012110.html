@@ -47,15 +47,15 @@
       const Emailaddress = document.querySelector('.Emailaddress');
         const email = document.querySelector('.email')
         const password = document.querySelector('.password');
-        const password2 = document.querySelector('.password')
+        let password2 = document.querySelector('.password')
 
      // create the function
      function result() {
-         const myUserName = UserName.value;
+         let myUserName = UserName.value;
          user.innerText=myUserName;
-         const myEmailaddress=Emailaddress.value;
+         let myEmailaddress=Emailaddress.value;
          email.innerText=myEmailaddress;
-         const mypassword = password.value;
+         let mypassword = password.value;
          password2.innerText = mypassword;
      }
 
